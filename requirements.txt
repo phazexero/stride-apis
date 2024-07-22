@@ -2,9 +2,7 @@ fastapi
 uvicorn 
 transformers 
 torch 
-
-
-
-
-
+sentencepiece
+langdetect
+together
 slowapi
