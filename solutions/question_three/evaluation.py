@@ -1,7 +1,6 @@
 from typing import List
 
 def evaluate_summary(original_text: str, summary: str) -> float:
-    # Simple heuristic evaluation: length ratio and keyword presence
     original_words = set(original_text.split())
     summary_words = set(summary.split())
     length_ratio = len(summary) / len(original_text)
